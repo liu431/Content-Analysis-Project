@@ -17,7 +17,9 @@ combined to generate a product comparison infographic that quantify the differen
 
 ![image](https://github.com/liu431/Content-Analysis-Project/blob/master/Code/Plots/Algo.png)
 
+## Results
+Combining the result from the methods (Counting Words, Sentiment Analysis, Topic Modeling, Doc2Vec, and Score Function), Figure 14 provides a infographic that could help consumers make easier decisions by quantifying the product differences from consumer reviews. For example, if the consumer is interested in picking up a keyboard that is both popular and with a trustworthy seller, the Azio keyboard would be the best option as it satisfies these criteria.
 
-## Reference
-Ni, J., Li, J., & McAuley, J. (2019, November). Justifying Recommendations using Distantly-Labeled Reviews and Fine-Grained Aspects. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 188-197).
+Also, this infographic is the prototype of an algorithmic product that we are building. To solve consumers’ decision problem, we plan to build a web app where users could type in the names of products that they are comparing. The web app could generate a infographic automatically that helps consumers accelerate decisions without spending too much time in reading reviews.
 
+![image](https://github.com/liu431/Content-Analysis-Project/blob/master/Code/Plots/infographic.png)
