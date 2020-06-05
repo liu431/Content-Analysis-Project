@@ -12,7 +12,7 @@ We wuse Amazon Review Data (2018, https://nijianmo.github.io/amazon/index.html) 
 In terms of time and In this project, we specifically used five keyboard reviewed data selected from the huge Amazon Review Data as the pivot study for this study. We selected five keyboard products with abudant amount of reviews on Amazon coming from five different brands, with a total query of 5,500 queries.
 
 ## Methods
-Figure 1 shows the design of our algorithm. Firstly, the users could provide several similar products that they are considering buying. Then the algorithm could identify the unique ASIN codes that Amazon uses for these products. Secondly, the algorithm would fetch and sample the associated consumer reviews by the ASIN codes and then pre-processed them. Thirdly, the algorithm would do three parts of analysis in parallel, which are exploratory data analysis, topic modeling, and word embedding. Lastly, the results will be
+Figure below shows the design of our algorithm. Firstly, the users could provide several similar products that they are considering buying. Then the algorithm could identify the unique ASIN codes that Amazon uses for these products. Secondly, the algorithm would fetch and sample the associated consumer reviews by the ASIN codes and then pre-processed them. Thirdly, the algorithm would do three parts of analysis in parallel, which are exploratory data analysis, topic modeling, and word embedding. Lastly, the results will be
 combined to generate a product comparison infographic that quantify the differences ofproduct within reviews.
 
 ![image](https://github.com/liu431/Content-Analysis-Project/blob/master/Code/Plots/Algo.png)
